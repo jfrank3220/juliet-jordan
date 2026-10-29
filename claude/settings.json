@@ -1,0 +1,64 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "claude-statusline prompt"
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-fable-5-1": {
+      "effortLevel": "high"
+    }
+  },
+  "promptSuggestionEnabled": false,
+  "awaySummaryEnabled": false,
+  "tui": "fullscreen",
+  "skipDangerousModePermissionPrompt": true,
+  "skipWorkflowUsageWarning": true,
+  "theme": "dark-daltonized",
+  "verbose": true,
+  "preferredNotifChannel": "auto",
+  "autoCompactEnabled": true,
+  "teammateMode": "tmux",
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": false,
+  "skipAutoPermissionPrompt": true,
+  "voiceEnabled": true,
+  "model": "opus",
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "mcp__notion__notion-search",
+      "mcp__notion__notion-fetch",
+      "mcp__notion__notion-get-comments",
+      "mcp__notion__notion-get-teams",
+      "mcp__notion__notion-get-users",
+      "mcp__context7__*",
+      "mcp__claude_ai_Granola__*",
+      "mcp__plugin_context7_context7__*",
+      "Task(*)"
+    ]
+  },
+  "enabledPlugins": {
+    "beads@sttts-beads-skill": false,
+    "context7@claude-plugins-official": false,
+    "frontend-design@claude-plugins-official": false,
+    "linear@claude-plugins-official": true,
+    "in-my-voice@j2-claude-plugins": false,
+    "typesafe@typesafe-ai": true,
+    "superpowers@superpowers-marketplace": false,
+    "playwright@claude-plugins-official": false,
+    "sentry@claude-plugins-official": false
+  },
+  "extraKnownMarketplaces": {
+    "typesafe-ai": {
+      "source": {
+        "source": "github",
+        "repo": "typesafe-ai/skills"
+      }
+    }
+  },
+  "env": {
+    "CLAUDE_CODE_PLUGIN_DIRS": ""
+  }
+}
