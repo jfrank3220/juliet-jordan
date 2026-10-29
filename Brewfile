@@ -22,6 +22,7 @@ cask "via"
 cask "vorssaint/tap/vorssaint"
 cask "zen"
 
+cask "crest-browser"
 cask "discord"
 cask "microsoft-auto-update"
 cask "microsoft-excel"
