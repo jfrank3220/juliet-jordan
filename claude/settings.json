@@ -46,8 +46,6 @@
     "linear@claude-plugins-official": true,
     "in-my-voice@j2-claude-plugins": false,
     "typesafe@typesafe-ai": true,
-    "superpowers@superpowers-marketplace": false,
-    "playwright@claude-plugins-official": false,
     "sentry@claude-plugins-official": false
   },
   "extraKnownMarketplaces": {
