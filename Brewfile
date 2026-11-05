@@ -1,7 +1,5 @@
 # Appended to Juliet's Brewfile on macOS.
-tap "basecamp/tap"
 tap "can1357/tap"
-tap "vorssaint/tap"
 
 brew "can1357/tap/omp"
 brew "cloud-sql-proxy"
@@ -14,14 +12,7 @@ brew "protoc-gen-go"
 brew "protoc-gen-go-grpc"
 
 # Moved out of Juliet main into Kyle's extension; keep them here.
-cask "basecamp/tap/hey"
 cask "kaleidoscope"
-cask "keycastr"
-cask "obsidian"
-cask "soundsource"
-cask "tolaria"
-cask "via"
-cask "vorssaint/tap/vorssaint"
 cask "zen"
 
 cask "crest-browser"
@@ -29,7 +20,6 @@ cask "discord"
 cask "microsoft-auto-update"
 cask "microsoft-excel"
 cask "notion"
-cask "postman"
 cask "rectangle"
 cask "slack"
 cask "zoom"
