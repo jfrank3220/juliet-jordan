@@ -1,7 +1,9 @@
 # Appended to Juliet's Brewfile on macOS.
 tap "basecamp/tap"
+tap "can1357/tap"
 tap "vorssaint/tap"
 
+brew "can1357/tap/omp"
 brew "cloud-sql-proxy"
 brew "gd"
 brew "helix"
