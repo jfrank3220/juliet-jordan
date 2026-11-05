@@ -12,7 +12,6 @@ brew "protoc-gen-go"
 brew "protoc-gen-go-grpc"
 
 # Moved out of Juliet main into Kyle's extension; keep them here.
-cask "kaleidoscope"
 cask "zen"
 
 cask "crest-browser"
